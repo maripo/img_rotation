@@ -83,10 +83,10 @@ ImageRotation.prototype.firstImageLoaded = function (firstImage)
 		cursor = 'move';
 	}
 	this.container.appendChild(this.cover);
-	this.container.addEventListener('mousemove',this.getMousemoveFunc(),false);
-	this.container.addEventListener('mousedown',this.getMousedownFunc(),false);
-	this.container.addEventListener('mouseup',this.getMouseupFunc(),false);
-	this.container.addEventListener('mouseout',this.getMouseoutFunc(),false);
+	this.cover.addEventListener('mousemove',this.getMousemoveFunc(),false);
+	this.cover.addEventListener('mousedown',this.getMousedownFunc(),false);
+	this.cover.addEventListener('mouseup',this.getMouseupFunc(),false);
+	this.cover.addEventListener('mouseout',this.getMouseoutFunc(),false);
 };
 
 ImageRotation.prototype.show = function (index)
