@@ -1,1 +1,1 @@
-TODO
+![Photo booth (Prototype)](https://github.com/maripo/img_rotation/raw/master/doc/photo_booth.jpg)
