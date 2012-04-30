@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Rotation Photo</title>
+		<script type="text/javascript" src="./rotate.js"></script>
+	</head>
+	<body>
+		<div id="img_ab"></div>
+		<div id="img_homhom"></div>
+		
+		<script type="text/javascript">
+			new ImageRotation(
+				document.getElementById('img_ab'),
+				'img/angelbeats[01-20].jpg'
+				).init();
+			new ImageRotation(
+				document.getElementById('img_homhom'),
+				'img/homhom[01-10].jpg'
+				).init();
+		</script>
+		
+	</body>
+</html>
