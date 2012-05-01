@@ -2,6 +2,8 @@
 
 Rotate 360 degree images on web browsers. It currently supports Google Chrome ,Firefox and Safari.
 
+[Sample](https://github.com/maripo/img_rotation/raw/master/viewer/img/ab_animation.gif)
+
 ##Usage
 You can embed viewer objects to HTML files.
 * Prepare images with sequential numbers
